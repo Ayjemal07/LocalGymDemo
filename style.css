@@ -1,0 +1,181 @@
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+.gym-navbar {
+    background: url('pics/homepagemuscular.jpg') right/cover;
+    height: 120vh; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Media query for screens with a maximum width of 768 pixels */
+  .gym-navbar {
+      background: url('pics/homepagemuscular.jpg') center/cover; /* Center the image on small screens */
+      height: auto; /* Allow the height to adjust based on content */
+  }
+}
+
+#navItems{
+    text-align: left;
+    display:flex;
+}
+
+
+#navItems .nav-item {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  #navItems .nav-item:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+
+#navItems .nav-link1 {
+    color: darkorange; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+
+.navbar-heading {
+    font-size: 50px; /* Adjust the font size to your preference */
+    color:darkorange;   /* Set the text color to white */
+    font-weight: bold; /* Make the text bold */
+    opacity: 0.8; /* Adjust the opacity to your preference */
+    padding: 10px 20px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+
+  .join-today{
+    font-size:50px;
+    color: black;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .join{
+    background-color: orange;
+  }
+  .additional-text {
+    position: absolute;
+    left: 100px; /* Adjust the left position as needed */
+    transform: translate(0, -50%);
+    top: 50%;
+    font-size: 30px; /* Adjust the font size as needed */
+    font-family: 'Dancing Script', cursive;
+  }
+  
+
+.highlight{
+  background-color: darkorange;
+  color: black;
+  font-weight: bold;
+}
+
+.regular{
+  background-color: darkorange;
+  color:black;
+}
+
+
+.mark1{
+  background-color: darkorange;
+}
+
+.caption-text1 {
+  padding: 10px;
+  color: black;
+  font-size: 40px;
+  font-weight:bold;
+}
+
+.caption-page1 {
+  margin-top: 10px;
+  padding: 10px;
+  color: orange;
+  font-size:21px;
+  font-weight: bold;
+  background-color: cream;
+}
+
+.carousel-caption.caption-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+.mark2{
+  background-color: darkorange;
+}
+
+.caption-text2 {
+  color: rgb(22 5 28);
+  font-size: 40px;
+  font-weight:bold;
+  padding:10px;
+}
+
+.caption-page2 {
+  padding: 10px;
+  color:orange;
+  font-size: 21px;
+  /* font-weight: bold; */
+  background-color: beige;
+  margin-top:10px;
+}
+
+
+footer{
+    background-color: darkorange;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:50px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+  }
+  
+  /* Style for individual columns */
+.column {
+    flex-basis: 15%; /* Adjust to control column width */
+    padding: 10px;
+    text-align: left;
+    color: black;
+    margin-left:60px;
+  }
+  
+  .column-body{
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .column-body p {
+    margin-bottom: 50px !important;
+  }
+  
+  .first-item{
+    margin-top: 35px;
+  }
+
+.no-bg{
+    background-color: transparent;
+}
+
+.social-icons i {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
